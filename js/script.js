@@ -4,9 +4,15 @@ const openNav = () => {
     } else{
         document.getElementById("mobile-nav").style.width = ""
     }
-        
-
-  
-
-    
+   
 }
+
+const swiper = new Swiper('.swiper-container', {
+    direction: 'horizontal',
+  loop: true,
+  speed: 1500,
+      autoplay: {
+        delay: 4000,
+        disableOnInteraction: false,
+      },
+})
