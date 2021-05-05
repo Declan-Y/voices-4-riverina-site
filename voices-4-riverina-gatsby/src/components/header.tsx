@@ -14,10 +14,10 @@ const Header = ({ siteTitle}: props) => (
 
     <nav id="desktop-nav">
         <ul>
-            <li><a href="/">Home</a></li>
-            <li><a href="/our-story.html">Our Story</a></li>
-            <li><a href="/get-involved.html">Get Involved</a></li>
-            <li><a href="/contact.html">Contact</a></li>
+            <li><Link to="/">Home</Link></li>
+            <li><Link to="OurStory">Our Story</Link></li>
+            <li><Link to="/get-involved.html">Get Involved</Link></li>
+            <li><Link to="/contact.html">Contact</Link></li>
         </ul>
        
     
