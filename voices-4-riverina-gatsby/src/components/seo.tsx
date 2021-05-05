@@ -12,7 +12,7 @@ import { useStaticQuery, graphql } from "gatsby"
 interface SEOProps {
   description?: string,
   lang?: string,
-  meta: Array<{name: string, content: string}>,
+  meta?: Array<{name: string, content: string}>,
   title: string
 }
 function Seo({ description, lang, meta, title }: SEOProps) {
@@ -73,7 +73,7 @@ function Seo({ description, lang, meta, title }: SEOProps) {
           name: `twitter:description`,
           content: metaDescription,
         },
-      ].concat(meta)}
+      ].concat(meta ? meta : [])}
     />
   )
 }
