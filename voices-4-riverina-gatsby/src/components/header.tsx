@@ -15,8 +15,8 @@ const Header = ({ siteTitle}: props) => (
     <nav id="desktop-nav">
         <ul>
             <li><Link to="/">Home</Link></li>
-            <li><Link to="OurStory">Our Story</Link></li>
-            <li><Link to="/get-involved.html">Get Involved</Link></li>
+            <li><Link to="/OurStory">Our Story</Link></li>
+            <li><Link to="/GetInvolved">Get Involved</Link></li>
             <li><Link to="/contact.html">Contact</Link></li>
         </ul>
        
