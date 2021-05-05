@@ -8,6 +8,12 @@ import Seo from "../components/seo"
 const IndexPage = () => (
   <Layout>
     <Seo title="Home"/>
+    <div className="hero-container">
+    <div className="hero">
+        <h1>BIG THINGS CAN HAPPEN</h1>
+        <p>When enough people use their collective voice to call for change</p>
+    </div>
+    </div>
     <section className="content">
         <h1>About</h1>
         <p>The people who started Voices 4 Riverina (V4R) are a group of local residents who live, love and work across the federal electorate of 
