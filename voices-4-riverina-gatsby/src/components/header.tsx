@@ -17,7 +17,7 @@ const Header = ({ siteTitle}: props) => (
             <li><Link to="/">Home</Link></li>
             <li><Link to="/OurStory">Our Story</Link></li>
             <li><Link to="/GetInvolved">Get Involved</Link></li>
-            <li><Link to="/contact.html">Contact</Link></li>
+            <li><Link to="/Contact">Contact</Link></li>
         </ul>
        
     

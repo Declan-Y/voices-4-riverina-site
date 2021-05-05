@@ -45,8 +45,8 @@ const GetInvolved = () => {
             <a href="contact.html"><p className="interested"> I'm interested</p></a>
         </div>
 
-        <div class="swiper-container">
-            <div class="swiper-wrapper">
+        <div className="swiper-container">
+            <div className="swiper-wrapper">
                 <div id="center" className="swiper-slide"><img src="assets/quote1.jpg"/></div>
                 <div id="center" className="swiper-slide"><img src="assets/quote2.jpg"/></div>
                 <div id="center" className="swiper-slide"><img src="assets/quote3.jpg"/></div>
