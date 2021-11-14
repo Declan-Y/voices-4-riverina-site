@@ -46,10 +46,10 @@
 </div>
 </header>
 <main class="main">
+    
     <section class="content">
-    <form class="form" name="join" method="POST" data-netlify="true">
-        <p>Ready to get involved?</p>
-        The benefits of joining Voices 4 Riverina 
+        <h1>Ready to get involved?</h1>
+        <p>The benefits of joining Voices 4 Riverina </p>
         <ul>
         <li>Become part of the collective voice empowered to 
         participate in democracy and have your voice heard.</li>
@@ -61,14 +61,19 @@
         government to ensure high standards of modern, 
         effective, and innovative representation.</li>
     </ul>
-        Voices 4 Riverina will add you to our mailing list for upcoming 
-        events and news. Please sign up below (questions marked 
-        with an * are required)
-        <input type="text" placeholder="First name" name="first_name"/>
-        <input type="text" placeholder="Last name" name="last_name"/>
+        <p>Voices 4 Riverina will add you to our mailing list for upcoming 
+        events and news.</p> 
+        <p>Please sign up below (questions marked 
+        with an * are required)</p>
+    <form class="form" name="join" method="POST" data-netlify="true">
+        
+       
+        <input required type="text" placeholder="First name" name="first_name"/>
+        <input required type="text" placeholder="Last name" name="last_name"/>
         <input type="text" placeholder="Phone number" name="phone_number"/>
-        <input type="text" placeholder="Email" name="email"/>
-        <select name="LGA" id="lga">
+        <input required type="text" placeholder="Email" name="email"/>
+        <select required name="LGA" id="lga">
+            <option value="default">Please choose an LGA</option>
             <option value="wagga wagga">Wagga Wagga</option>
             <option value="lockhart">Lockhart</option>
             <option value="gundagai">Gundagai</option>
@@ -86,12 +91,14 @@
             <option value="outside">Outside the electorate</option>
           </select>
           <select name="gender" id="gender">
+            <option value="default">Please choose a gender</option>
             <option value="male">Male</option>
             <option value="female">Female</option>
             <option value="non-binary">Non-binary</option>
             <option value="prefer not to say">Prefer not to say</option>
           </select>
           <select name="age" id="age">
+            <option value="default">Please choose an age group</option>
             <option value="<15"><15</option>
             <option value="16-24">16-24</option>
             <option value="25-34">25-34</option>
@@ -101,9 +108,42 @@
             <option value="65+">65+</option>
             <option value="Prefer not to say">Prefer not to say</option>
           </select>
-        <button type="submit">Submit</button>
+          <div class="checkbox">
+          <input type="checkbox" id="volunteer" name="volunteer" value="volunteer">
+<label for="volunteer"> I want to volunteer</label>
+</div>
+        <button type="submit">Join</button>
     </form>
 </section>
+<div id="myModal" class="modal">
+
+    <!-- Modal content -->
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <h2>Volunteer code of conduct</h2>
+<p>Values: Courage, diversity, inclusion, 
+integrity, respect.</p>
+Behaviours:
+<ul>
+<li>I will engage in positive action</li>
+<li>I will act in the best interests of the 
+Riverina community</li>
+<li>I will be welcoming and inclusive</li>
+<li>I will demonstrate honest and 
+considerate behaviour</li>
+<li>I will refer to reputable sources and 
+respect sound scientific consensus 
+and evidence.</li>
+</ul> 
+Consent: I authorise Voices 4 Riverina to use
+any photographs taken while attending 
+Voices 4 Riverina events or volunteering for 
+Voices 4 Riverina that include me, and use 
+them in articles, newspapers, website and 
+social media.
+    </div>
+  
+  </div>
    
 </main>
 
