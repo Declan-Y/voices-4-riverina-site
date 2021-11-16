@@ -200,6 +200,11 @@ header {
   justify-content: space-evenly;
   font-size: 2rem;
 }
+.modal > .modal-content {
+  background-color: #8dd9ff;
+  color: white;
+  border-radius: 0.5rem;
+}
 
 #mobile-nav {
   height: 100%;
