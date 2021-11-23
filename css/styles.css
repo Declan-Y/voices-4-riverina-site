@@ -47,6 +47,18 @@ main {
   display: flex;
   justify-content: center;
   margin-bottom: 2rem;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.hero-container > h1 {
+  color: #b11010;
+}
+.hero-container > .download-report {
+  background-color: #8dd9ff;
+  border-radius: 0.5rem;
+  padding: 1rem;
+  margin-bottom: 1rem;
 }
 .menu {
   min-width: 1.5rem;
